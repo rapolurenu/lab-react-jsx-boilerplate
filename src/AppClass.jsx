@@ -34,7 +34,7 @@ export default class AppClass extends Component{
         <h2>Kalvium gallary</h2>
         <div className="img_row">
           {images.map(image => (
-              <img src={image.img} alt={`Image ${image.id}`} className="fsize"/>
+              <img src={image.img} alt={`Image ${image.id}`} className="size"/>
           ))}
         </div>
       </div>
