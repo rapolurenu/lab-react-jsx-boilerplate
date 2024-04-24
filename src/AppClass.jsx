@@ -27,4 +27,17 @@ export default class AppClass extends Component{
   }
 
   // code here
+  render(){
+    const images = this.imageData();
+    return (
+      <div className="gallary">
+        <h2>Kalvium gallary</h2>
+        <div className="img_row">
+          {images.map(image => (
+              <img src={image.img} alt={`Image ${image.id}`} className="fsize"/>
+          ))}
+        </div>
+      </div>
+    );
+  }
 }
