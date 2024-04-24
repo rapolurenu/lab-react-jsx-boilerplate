@@ -1,1 +1,19 @@
 /* add your styles here */
+.gallary {
+    padding: 29px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.img_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 6px;
+    justify-content: center; 
+}
+
+.size {
+    width: 100%; 
+    margin: 11px;
+    display:block;
+}
